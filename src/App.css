@@ -1,0 +1,41 @@
+body {
+    background-color: antiquewhite;
+}
+
+.appContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.InputBox {
+    width: 50%;
+}
+
+.Input_Field {
+    width: 90%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.Input_Field_Button {
+    height: 30px;
+    margin-left: 10px;
+    background-color: skyblue;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    transform: scale(1);
+}
+
+.Input_Field_Button:active {
+    transform: scale(0.8);
+    transition-duration: 0.5s;
+}
